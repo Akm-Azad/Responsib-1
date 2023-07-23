@@ -148,3 +148,82 @@ nav li a {
     font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
 }
+
+/* Match image  */
+.mathces {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    margin-top: 110px;
+    margin-bottom: 50px;
+
+
+}
+
+article {
+    width: 400px;
+    height: 350px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+article h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+
+article p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(48, 44, 44);
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+article a {
+
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: #FFF;
+    padding: 10px 20px;
+}
+
+.e img {
+    width: 580px;
+    height: 450px;
+}
+
+footer {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 100px;
+
+}
+
+.logo img {
+    width: 450px;
+    height: 110px;
+
+}
+
+.icon {
+    margin-left: 120px;
+}
+
+.icon img {
+    width: 8%;
+    margin: 10px;
+
+
+}
+
+footer p {
+    font-size: 19px;
+    color: rgb(41, 39, 39);
+    margin-left: 135px;
+    margin-bottom: 10px;
+}
+
+/* Responsib */
+
+@media only screen and (max-width: 688px) {}
